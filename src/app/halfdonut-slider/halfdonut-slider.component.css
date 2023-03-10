@@ -1,0 +1,340 @@
+.parent {
+  background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.subchild {
+  background: linear-gradient(
+    90deg,
+    rgba(243, 244, 248, 0.4) 18.89%,
+    rgba(236, 238, 248, 0.5) 24.46%,
+    rgba(243, 244, 248, 0.4) 48.89%
+  );
+  padding: 30px 30px 20px 30px;
+}
+
+.curser_box {
+  width: 16px;
+  height: 115px;
+  background-size: cover;
+  top: 80px;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  transform-origin: bottom;
+  z-index: 2;
+}
+.curser_box:before {
+  content: '';
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 73px solid #595959;
+  left: 3px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.curser_box:after {
+  content: '';
+  position: absolute;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 77px solid #fff;
+  top: -2px;
+  left: -1px;
+}
+
+.axis-bank {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  padding: 15px;
+}
+
+h6.abbf {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #414141;
+  margin-bottom: 0;
+}
+
+img.axislogo {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+p.abbp {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: 'case' on;
+  color: #616571;
+  margin-bottom: 0;
+  margin-top: 3px;
+}
+
+p.bluepara {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.003em;
+  font-feature-settings: 'case' on;
+  color: #71718e;
+  margin-top: 15px;
+}
+
+.navvalue {
+  padding: 30px 20px 0px 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h6.navv-head {
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #414141;
+  margin-bottom: 8px;
+}
+
+p.numvalue {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #616571;
+  margin-bottom: 15px;
+}
+
+span.greenpercentage {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'case' on;
+  color: #7cc324;
+}
+.has-tooltip.position-relative.newtool {
+  margin-left: 8px;
+}
+.has-tooltip:hover .tooltip-wrapper .tooltip {
+  min-width: 200px !important;
+}
+ngb-rating {
+  color: #ffcb13;
+  font-size: 24px;
+}
+button.start-investment {
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #d16c13;
+  border: none;
+  padding: 13px 20px;
+  background: #feeee5;
+  border: 1px solid #fee3d4;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 2%);
+  border-radius: 40px;
+  margin-left: 10px;
+}
+button.start-investment:hover {
+  background-color: #e77817;
+  color: #fff;
+}
+p.invest-grow {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'case' on;
+  color: #616571;
+  max-width: 100px;
+  margin: 0;
+}
+.start-invest {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 450px;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+#range {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  top: 50px;
+  opacity: 0;
+}
+
+#value {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.rs-control .rs-range-color {
+  background: red;
+}
+#slider1 {
+  position: absolute;
+
+  margin: 0 auto;
+  left: 115px;
+  top: 115px;
+}
+#slider1 .rs-range-color {
+  background: linear-gradient(
+    270deg,
+    #b41a15 -1.64%,
+    #ff7200 15.55%,
+    #ffba00 34.96%,
+    #ffe500 57.69%,
+    #c8dc00 80.09%,
+    #7cc324 102.61%
+  ) !important;
+}
+.rs-svg-container {
+  border-radius: 100%;
+
+  /* by default conic gradient was start from 90 deg */
+  /* so based on the roundSlider startAngle, modify this value */
+  background: conic-gradient(
+    from -90deg,
+    yellow 0%,
+    yellow 20%,
+    blue 20%,
+    blue 40%,
+    red 40%,
+    red 60%,
+    green 60%,
+    green 80%,
+    brown 80%,
+    brown 100%
+  );
+}
+.rs-svg-container:after {
+  content: ' ';
+  display: block;
+  background: white;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+  height: calc(100% - 20px); /* here 20 is the slider's (width * 2) */
+  width: calc(100% - 20px);
+  transform: translate(10px, 10px); /* here 10 is the slider's (width) */
+}
+span.rs-tooltip.rs-tooltip-text.rs-edit {
+  display: none;
+}
+
+p.low {
+  position: absolute;
+  top: 140px;
+  transform: rotate(20deg);
+  left: 70px;
+  letter-spacing: 0.382272px;
+  color: #636363;
+  font-size: 12px;
+}
+p.mod {
+  position: absolute;
+  top: 90px;
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  font-size: 10px;
+  left: 90px;
+  color: #636363;
+}
+p.Moderate {
+  position: absolute;
+  top: 75px;
+  -ms-transform: rotate(40deg);
+  transform: rotate(70deg);
+  font-size: 10px;
+  left: 130px;
+  color: #636363;
+}
+p.modhi {
+  position: absolute;
+  top: 90px;
+  -ms-transform: rotate(40deg);
+  transform: rotate(-80deg);
+  width: 10px;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* word-break: break-all; */
+  font-size: 10px;
+  left: 190px;
+  color: #636363;
+}
+p.high {
+  position: absolute;
+  top: 100px;
+  -ms-transform: rotate(40deg);
+  transform: rotate(-40deg);
+  font-size: 10px;
+  left: 235px;
+  color: #fff;
+}
+/* .ui-slider-handle{
+  background-image: url("../../../../assets/img/sliderarrow.png");
+} */
+.sliderimg {
+  position: absolute;
+  top: -14px;
+  left: 25px;
+  transform: rotate(-80deg);
+  z-index: 21;
+}
+.rs-handle.rs-move.rs-handle-dot {
+  background-color: red;
+}
+/* .rs-handle-dot:after {
+  background-image: url("../../assets/img/sliderarrow.png");
+}
+.rs-handle.rs-move.rs-handle-dot{
+  background-image: url("../../assets/img/sliderarrow.png") !important;
+
+} */
+p.vhigh {
+  position: absolute;
+  top: 140px;
+  -ms-transform: rotate(40deg);
+  transform: rotate(-30deg);
+  font-size: 10px;
+  left: 240px;
+  float: right;
+  right: 0;
+  color: #ffffff;
+}
+
+.rs-inner-container {
+  top: 140px;
+}
