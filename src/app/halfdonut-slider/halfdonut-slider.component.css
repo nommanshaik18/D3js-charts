@@ -316,13 +316,12 @@ p.high {
 .rs-handle.rs-move.rs-handle-dot {
   background-color: red;
 }
-/* .rs-handle-dot:after {
-  background-image: url("../../assets/img/sliderarrow.png");
+.rs-handle-dot:after {
+  background-image: url('https://github.com/nommanshaik18/D3js-charts/blob/main/src/assets/sliderarrow.png');
 }
-.rs-handle.rs-move.rs-handle-dot{
-  background-image: url("../../assets/img/sliderarrow.png") !important;
-
-} */
+.rs-handle.rs-move.rs-handle-dot {
+  background-image: url('https://github.com/nommanshaik18/D3js-charts/blob/main/src/assets/sliderarrow.png') !important;
+}
 p.vhigh {
   position: absolute;
   top: 140px;
@@ -336,5 +335,5 @@ p.vhigh {
 }
 
 .rs-inner-container {
-  top: 140px;
+  top: 30px !important;
 }
